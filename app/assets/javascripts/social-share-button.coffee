@@ -19,7 +19,7 @@ window.SocialShareButton =
     desc = encodeURIComponent($parent.data("desc") || ' ')
     popup = encodeURIComponent($parent.data("popup") || 'false')
     width = encodeURIComponent($parent.data("width") || '500')
-    height = encodeURIComponent($parent.data("height") || '500')
+    height = encodeURIComponent($parent.data("height") || '400')
 
     if url.length == 0
       url = encodeURIComponent(location.href)
